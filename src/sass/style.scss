@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.dark-blue-bg {
+    background-color: $dark-blue;
+}
+
+.dark-blue-text {
+    color: $dark-blue;
+}
+
+.light-blue-bg {
+    background-color: $light-blue;
+}
+
+.light-blue-text {
+    color: $light-blue;
+}
+
+@import 'blocks/header';
+@import 'blocks/cards';
+
+@import 'base/media';

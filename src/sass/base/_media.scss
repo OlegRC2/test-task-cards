@@ -1,0 +1,141 @@
+@media ( max-width: 1199px ) {
+    .header {
+        background-position: left;
+        padding-top: 100px;
+        height: 340px;
+        &__title {
+            font-size: 54px;
+            line-height: 60px;
+            letter-spacing: 1.2px;
+            width: 630px;
+        }
+    }
+    .cards {
+        padding-top: 80px;
+        &__wrapper {
+            width: 960px;
+            margin: 0 auto;
+        }
+        &__card {
+            width: 465px;
+            height: 470px;
+        }
+        &__img {
+            width: 405px;
+            height: 170px;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        &__btn {
+            width: 150px;
+        }
+    }
+}
+
+@media ( max-width: 991px ) {
+    .header {
+        padding-top: 80px;
+        height: 276px;
+        background-size: auto;
+        &__title {
+            font-size: 46px;
+            line-height: 48px;
+            letter-spacing: 1px;
+            width: 470px;
+        }
+    }
+    .cards {
+        padding-top: 60px;
+        &__wrapper {
+            width: 720px;
+        }
+        &__card {
+            width: 345px;
+            height: 440px;
+        }
+        &__label {
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            padding: 5px 14px 7px 14px;
+            height: 32px;
+        }
+        &__img {
+            width: 289px;
+            height: 150px;
+        }
+        &__autor {
+            font-size: 12px;
+            line-height: 18px;
+            margin-top: 18px;
+        }
+        &__title {
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 1px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 22px;
+            margin-top: 12px;
+        }
+        &__btn {
+            width: 140px;
+            height: 36px;
+            bottom: 28px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media ( max-width: 767px ) {
+    .header {
+        height: 236px;
+        padding-top: 60px;
+    }
+    .cards {
+        padding-top: 50px;
+        &__wrapper {
+            width: 546px;
+        }
+        &__card {
+            width: 546px;
+            height: 418px;
+            padding: 28px;
+        }
+        &__img {
+            width: 490px;
+            height: 150px;
+        }
+    }
+}
+
+@media ( max-width: 575px ) {
+    .header {
+        height: 274px;
+        padding-top: 60px;
+        &__title {
+            width: 290px;
+        }
+    }
+    .cards {
+        &__wrapper {
+            width: 290px;
+        }
+        &__card {
+            width: 290px;
+            height: 448px;
+            padding: 16px 16px 20px 16px;
+        }
+        &__label {
+            top: 0;
+        }
+        &__img {
+            width: 258px;
+            height: 140px;
+        }
+    }
+}
